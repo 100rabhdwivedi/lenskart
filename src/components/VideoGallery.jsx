@@ -4,19 +4,75 @@ import { GoArrowLeft } from "react-icons/go";
 import Nav from "./Nav";
 import Transition from "./Transition";
 const VideoGallery = () => {
-    const videos = [
-        { id: "1-0", videoId: "1.mp4", videoName: "Concert Vibes", previewImg: "/galleryimages/1.jpg" },
-        { id: "1-1", videoId: "2.mp4", videoName: "Urban Style, Bold Frames", previewImg: "/galleryimages/2.jpg" },
-        { id: "1-2", videoId: "3.mp4", videoName: "Retro Magic – Potter Frames", previewImg: "/galleryimages/3.jpg" },
-        { id: "1-3", videoId: "4.mp4", videoName: "Smart Bluetooth Glasses", previewImg: "/galleryimages/4.jpg" },
-        { id: "2-0", videoId: "11.mp4", videoName: "The Coder Look", previewImg: "/galleryimages/5.jpg" },
-        { id: "2-1", videoId: "6.mp4", videoName: "Desi Diva in Shades", previewImg: "/galleryimages/6.jpg" },
-        { id: "2-2", videoId: "7.mp4", videoName: "Superman Inspired", previewImg: "/galleryimages/7.jpg" },
-        { id: "3-0", videoId: "8.mp4", videoName: "Little Legends", previewImg: "/galleryimages/8.jpg" },
-        { id: "3-1", videoId: "9.mp4", videoName: "Rakhi Gift", previewImg: "/galleryimages/9.jpg" },
-        { id: "3-2", videoId: "10.mp4", videoName: "Wizard Vibes", previewImg: "/galleryimages/10.jpg" },
-        { id: "3-3", videoId: "5.mp4", videoName: "Price Drop, Style Rise!", previewImg: "/galleryimages/11.jpg" }
-    ];
+ const videos = [
+    {
+        id: "1-0",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446586/1_efeggm.mp4",
+        videoName: "Concert Vibes",
+        previewImg: "/galleryimages/1.jpg",
+    },
+    {
+        id: "1-1",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446540/2_eykoep.mp4",
+        videoName: "Urban Style, Bold Frames",
+        previewImg: "/galleryimages/2.jpg",
+    },
+    {
+        id: "1-2",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446511/3_kghtrh.mp4",
+        videoName: "Retro Magic – Potter Frames",
+        previewImg: "/galleryimages/3.jpg",
+    },
+    {
+        id: "1-3",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446436/4_z7uqx0.mp4",
+        videoName: "Smart Bluetooth Glasses",
+        previewImg: "/galleryimages/4.jpg",
+    },
+    {
+        id: "2-0",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446598/11_lrs9k1.mp4",
+        videoName: "The Coder Look",
+        previewImg: "/galleryimages/5.jpg",
+    },
+    {
+        id: "2-1",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446456/6_kgnzg8.mp4",
+        videoName: "Desi Diva in Shades",
+        previewImg: "/galleryimages/6.jpg",
+    },
+    {
+        id: "2-2",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446602/7_oqyhvr.mp4",
+        videoName: "Superman Inspired",
+        previewImg: "/galleryimages/7.jpg",
+    },
+    {
+        id: "3-0",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446456/8_xrnnzt.mp4",
+        videoName: "Little Legends",
+        previewImg: "/galleryimages/8.jpg",
+    },
+    {
+        id: "3-1",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446487/9_enrisj.mp4",
+        videoName: "Rakhi Gift",
+        previewImg: "/galleryimages/9.jpg",
+    },
+    {
+        id: "3-2",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446520/10_tsw47g.mp4",
+        videoName: "Wizard Vibes",
+        previewImg: "/galleryimages/10.jpg",
+    },
+    {
+        id: "3-3",
+        videoId: "https://res.cloudinary.com/djczgyd7j/video/upload/v1753446438/5_dhnu7a.mp4",
+        videoName: "Price Drop, Style Rise!",
+        previewImg: "/galleryimages/11.jpg",
+    },
+];
+
 
     const galleryRef = useRef(null);
     const containerRef = useRef(null);
@@ -53,7 +109,7 @@ const VideoGallery = () => {
             const videoPromises = videos.map((video) => {
                 return new Promise((resolve) => {
                     const videoEl = document.createElement("video");
-                    videoEl.src = `/videos/${video.videoId}`;
+                    videoEl.src = `${video.videoId}`;
                     videoEl.preload = "auto";
                     videoEl.oncanplaythrough = resolve;
                     videoEl.onerror = resolve;
@@ -182,7 +238,7 @@ const VideoGallery = () => {
 
                                         <div className="absolute inset-0 scale-200 transition-all duration-300">
                                             <video
-                                                src={`/videos/${item.video.videoId}`}
+                                                src={`${item.video.videoId}`}
                                                 autoPlay
                                                 loop
                                                 muted
