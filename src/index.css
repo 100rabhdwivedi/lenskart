@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+    font-family: 't1';
+    src: url('/fonts/t1korium-2kg.woff2')format('woff2');
+}
+
+@font-face {
+    font-family: 'pp';
+    src: url('/fonts/ppneuemontrealmono-book-webfont.woff2')format('woff2');
+}
+
+@font-face {
+    font-family: 'santoshi';
+    src: url('/fonts/Satoshi-Variable.ttf')format('truetype');
+}
+
+
+.font-three {
+    font-family: 't1';
+}
+
+.font-final {
+    font-family: 'pp';
+}
+
+.font-santoshi {
+    font-family: 'santoshi';
+}
+
+
+.no-scroll {
+    overflow: hidden !important;
+    height: 100%;
+}
+
+
