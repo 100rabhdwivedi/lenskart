@@ -6,16 +6,16 @@ import Lenis from "lenis"; // make sure you install lenis
 gsap.registerPlugin(ScrollTrigger);
 
 const spotlightItems = [
-    { name: "Crystal Acetate", img: "/collections/1.jpg" },
-    { name: "Amit Aggarwal", img: "/collections/2.jpg" },
-    { name: "Batman", img: "/collections/3.jpg" },
-    { name: "Indoor", img: "/collections/4.jpg" },
-    { name: "Driving", img: "/collections/5.jpg" },
-    { name: "Hiphop", img: "/collections/6.jpg" },
-    { name: "Casual", img: "/collections/7.jpg" },
-    { name: "Phonic", img: "/collections/8.jpg" },
-    { name: "Harry Potter", img: "/collections/9.jpg" },
-    { name: "Superman", img: "/collections/10.jpg" },
+    { name: "Crystal Acetate", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444775/1_s5cphb.jpg" },
+    { name: "Amit Aggarwal", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444778/2_xqdqkb.jpg" },
+    { name: "Batman", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444776/3_fdha6p.jpg" },
+    { name: "Indoor", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444780/4_i2zfnm.jpg" },
+    { name: "Driving", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444777/5_vubwhz.jpg" },
+    { name: "Hiphop", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444781/6_w6tehl.jpg" },
+    { name: "Casual", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444779/7_quprzy.jpg" },
+    { name: "Phonic", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444777/8_w4bk6p.jpg" },
+    { name: "Harry Potter", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444781/9_c38uqd.jpg" },
+    { name: "Superman", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444781/10_fijof0.jpg" },
 ];
 
 

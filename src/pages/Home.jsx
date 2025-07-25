@@ -21,16 +21,16 @@ const Home = () => {
                     <Header />
                     <ImageTrail
                         items={[
-                            "/images/3.jpg",
-                            "/images/6.jpg",
-                            "/images/5.jpg",
-                            "/images/1.jpg",
-                            "/images/2.jpg",
-                            "/images/4.jpg",
-                            "/images/7.jpg",
-                            "/images/8.jpg",
-                            "/images/9.jpg",
-                            "/images/1.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443887/3_gg4bgj.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443892/6_r4ldh0.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443892/5_pagbhu.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443886/1_ih9h6m.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443888/2_d1rkl5.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443889/4_aetzc8.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443892/7_nimkdb.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443889/8_qg90su.jpg",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443890/9_bkyy1h.webp",
+                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443886/1_ih9h6m.jpg",
                         ]}
                         variant={1}
                     />

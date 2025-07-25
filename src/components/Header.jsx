@@ -46,7 +46,7 @@ const Header = () => {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="absolute -top-20 -left-10 md:-left-30 h-32 md:h-44 rotate-[20deg]"
-                    src="./sunglasses.png"
+                    src="https://res.cloudinary.com/djczgyd7j/image/upload/sunglasses_dfptlh.png"
                     alt=""
                 />
 
@@ -56,7 +56,7 @@ const Header = () => {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
                     className="absolute -bottom-10 -right-10 md:-right-30 h-24 md:h-44 rotate-[-15deg]"
-                    src="./glasses.png"
+                    src="https://res.cloudinary.com/djczgyd7j/image/upload/v1753443702/glasses_dz9xuq.png"
                     alt=""
                 />
             </div>

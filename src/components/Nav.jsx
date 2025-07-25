@@ -190,7 +190,7 @@ const Nav = () => {
 
                     </div>
                     <div className="video-wrapper">
-                        <video loop muted autoPlay src="./intro.mp4"></video>
+                        <video loop muted autoPlay src="https://res.cloudinary.com/djczgyd7j/video/upload/intro_e4bfz2.mp4"></video>
                     </div>
                 </div>
 

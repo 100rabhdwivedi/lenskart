@@ -21,9 +21,24 @@ const About = () => {
         let targetX = 0, targetY = 0;
         let currentX = 0, currentY = 0;
 
+        const cloudinaryBase = "https://res.cloudinary.com/djczgyd7j/image/upload/";
+        const imagePublicPaths = [
+            "v1753444775/1_s5cphb.jpg",
+            "v1753444778/2_xqdqkb.jpg",
+            "v1753444776/3_fdha6p.jpg",
+            "v1753444780/4_i2zfnm.jpg",
+            "v1753444777/5_vubwhz.jpg",
+            "v1753444781/6_w6tehl.jpg",
+            "v1753444779/7_quprzy.jpg",
+            "v1753444777/8_w4bk6p.jpg",
+            "v1753444781/9_c38uqd.jpg",
+            "v1753444781/10_fijof0.jpg",
+            "v1753444782/11_ambtpi.jpg",
+        ];
+
         items.forEach((item, index) => {
             const img = document.createElement("img");
-            img.src = `/collections/${index + 1}.jpg`;
+            img.src = `${cloudinaryBase}/${imagePublicPaths[index]}`;
             img.alt = `Image ${index + 1}`;
             img.classList.add("w-full", "h-full", "object-cover");
             item.appendChild(img);
@@ -56,7 +71,6 @@ const About = () => {
                 isMouseOverSpan = true;
                 updateGallery(e.clientX, e.clientY, true);
 
-
                 gsap.to(span.parentNode, {
                     color: "#545454",
                     duration: 0.3,
@@ -66,7 +80,6 @@ const About = () => {
 
             span.addEventListener("mousemove", (e) => {
                 if (isMouseOverSpan) {
-
                     targetX = e.clientX - 800;
                     targetY = e.clientY - 400;
                 }
@@ -76,7 +89,6 @@ const About = () => {
                 isMouseOverSpan = false;
                 updateGallery(0, 0, false);
 
-                // ✅ Animate parent color back to white
                 gsap.to(span.parentNode, {
                     color: "#ffffff",
                     duration: 0.3,
@@ -84,8 +96,6 @@ const About = () => {
                 });
             });
         });
-
-
 
         gsap.ticker.add(() => {
             currentAngle += 0.005;
@@ -128,8 +138,6 @@ const About = () => {
                 </p>
             </div>
 
-
-
             <Nav />
 
             {/* Footer */}
@@ -137,7 +145,6 @@ const About = () => {
                 <p>Hover On</p>
                 <p>the highlighted words</p>
             </footer>
-
 
             {/* Container and Gallery */}
             <div className="absolute w-full h-full pointer-events-none" ref={containerRef}>
