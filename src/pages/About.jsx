@@ -21,19 +21,18 @@ const About = () => {
         let targetX = 0, targetY = 0;
         let currentX = 0, currentY = 0;
 
-        const cloudinaryBase = "https://res.cloudinary.com/djczgyd7j/image/upload/";
+        const cloudinaryBase = "https://ik.imagekit.io/lenskartclone/images/";
         const imagePublicPaths = [
-            "v1753444775/1_s5cphb.jpg",
-            "v1753444778/2_xqdqkb.jpg",
-            "v1753444776/3_fdha6p.jpg",
-            "v1753444780/4_i2zfnm.jpg",
-            "v1753444777/5_vubwhz.jpg",
-            "v1753444781/6_w6tehl.jpg",
-            "v1753444779/7_quprzy.jpg",
-            "v1753444777/8_w4bk6p.jpg",
-            "v1753444781/9_c38uqd.jpg",
-            "v1753444781/10_fijof0.jpg",
-            "v1753444782/11_ambtpi.jpg",
+           "1.jpg?updatedAt=1752921663285",
+  "2.jpg?updatedAt=1752921663401",
+  "3.jpg?updatedAt=1752921663684",
+  "4.jpg?updatedAt=1752921663327",
+  "5.jpg?updatedAt=1752921663826",
+  "6.jpg?updatedAt=1752921663747",
+  "7.jpg?updatedAt=1752921662641",
+  "8.jpg?updatedAt=1752921663025",
+  "9.jpg?updatedAt=1752921662522"
+
         ];
 
         items.forEach((item, index) => {
