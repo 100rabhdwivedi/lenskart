@@ -21,17 +21,18 @@ const Home = () => {
                     <Header />
                     <ImageTrail
                         items={[
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443887/3_gg4bgj.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443892/6_r4ldh0.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443892/5_pagbhu.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443886/1_ih9h6m.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443888/2_d1rkl5.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443889/4_aetzc8.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443892/7_nimkdb.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443889/8_qg90su.jpg",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443890/9_bkyy1h.webp",
-                            "https://res.cloudinary.com/djczgyd7j/image/upload/v1753443886/1_ih9h6m.jpg",
-                        ]}
+  "https://ik.imagekit.io/lenskartclone/images/5.jpg?updatedAt=1752921663826",
+  "https://ik.imagekit.io/lenskartclone/images/1.jpg?updatedAt=1752921663285",
+  "https://ik.imagekit.io/lenskartclone/images/6.jpg?updatedAt=1752921663747",
+  "https://ik.imagekit.io/lenskartclone/images/8.jpg?updatedAt=1752921663025",
+  "https://ik.imagekit.io/lenskartclone/images/9.jpg?updatedAt=1752921662522",
+
+  // newly added 👇
+  "https://ik.imagekit.io/lenskartclone/images/7.jpg?updatedAt=1752921662641",
+  "https://ik.imagekit.io/lenskartclone/images/3.jpg?updatedAt=1752921663684",
+  "https://ik.imagekit.io/lenskartclone/images/4.jpg?updatedAt=1752921663327",
+  "https://ik.imagekit.io/lenskartclone/images/2.jpg?updatedAt=1752921663401"
+]}
                         variant={1}
                     />
                 </div >
