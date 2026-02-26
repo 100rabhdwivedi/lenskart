@@ -164,7 +164,7 @@ export default function BestGlasses() {
                 <section
                     ref={introRef}
                     className="h-screen w-screen bg-center bg-no-repeat bg-cover cursor-pointer"
-                    style={{ backgroundImage: `url(https://res.cloudinary.com/djczgyd7j/image/upload/v1753444281/6_szkx0i.jpg)` }}
+                    style={{ backgroundImage: `url(https://ik.imagekit.io/lenskartclone/images/12.jpg)` }}
                     title="Go to Products"
                 ></section>
             </NavLink>
