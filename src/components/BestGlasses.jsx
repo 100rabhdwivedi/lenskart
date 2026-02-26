@@ -14,23 +14,23 @@ export default function BestGlasses() {
     const items =
         [
             {
-                src: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444482/img1_nqnb3y.jpg",
+                src: "https://ik.imagekit.io/lenskartclone/images/5.jpg?updatedAt=1752921663826",
                 text: "Classic full-rim frames that blend timeless style with modern durability.",
             },
             {
-                src: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444484/img2_b6czzy.jpg",
+                src: "https://ik.imagekit.io/lenskartclone/images/1.jpg?updatedAt=1752921663285",
                 text: "Lightweight metal frames offering a sleek and professional look.",
             },
             {
-                src: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444486/img3_okzr6g.jpg",
+                src: "https://ik.imagekit.io/lenskartclone/images/6.jpg?updatedAt=1752921663747",
                 text: "Bold and trendy acetate frames perfect for making a statement.",
             },
             {
-                src: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444485/img4_n5o7bx.webp",
+                src: "https://ik.imagekit.io/lenskartclone/images/8.jpg?updatedAt=1752921663025",
                 text: "Minimalist frameless design for a clean, barely-there aesthetic.",
             },
             {
-                src: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444486/img5_rkncc2.webp",
+                src: "https://ik.imagekit.io/lenskartclone/images/9.jpg?updatedAt=1752921662522",
                 text: "Discover our stylish and affordable eyewear crafted for everyday comfort.",
             }
         ]
