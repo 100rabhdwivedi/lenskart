@@ -5,17 +5,19 @@ import Lenis from "lenis"; // make sure you install lenis
 
 gsap.registerPlugin(ScrollTrigger);
 
-const spotlightItems = [
-    { name: "Crystal Acetate", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444775/1_s5cphb.jpg" },
-    { name: "Amit Aggarwal", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444778/2_xqdqkb.jpg" },
-    { name: "Batman", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444776/3_fdha6p.jpg" },
-    { name: "Indoor", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444780/4_i2zfnm.jpg" },
-    { name: "Driving", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444777/5_vubwhz.jpg" },
-    { name: "Hiphop", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444781/6_w6tehl.jpg" },
-    { name: "Casual", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444779/7_quprzy.jpg" },
-    { name: "Phonic", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444777/8_w4bk6p.jpg" },
-    { name: "Harry Potter", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444781/9_c38uqd.jpg" },
-    { name: "Superman", img: "https://res.cloudinary.com/djczgyd7j/image/upload/v1753444781/10_fijof0.jpg" },
+const spotlightItems = 
+   [
+  { name: "Crystal Acetate", img: "https://ik.imagekit.io/lenskartclone/images/1.jpg?updatedAt=1752921663285" },
+  { name: "Amit Aggarwal", img: "https://ik.imagekit.io/lenskartclone/images/2.jpg?updatedAt=1752921663401" },
+  { name: "Batman", img: "https://ik.imagekit.io/lenskartclone/images/3.jpg?updatedAt=1752921663684" },
+  { name: "Indoor", img: "https://ik.imagekit.io/lenskartclone/images/4.jpg?updatedAt=1752921663327" },
+  { name: "Driving", img: "https://ik.imagekit.io/lenskartclone/images/5.jpg?updatedAt=1752921663826" },
+  { name: "Hiphop", img: "https://ik.imagekit.io/lenskartclone/images/6.jpg?updatedAt=1752921663747" },
+  { name: "Casual", img: "https://ik.imagekit.io/lenskartclone/images/7.jpg?updatedAt=1752921662641" },
+  { name: "Phonic", img: "https://ik.imagekit.io/lenskartclone/images/8.jpg?updatedAt=1752921663025" },
+  { name: "Harry Potter", img: "https://ik.imagekit.io/lenskartclone/images/9.jpg?updatedAt=1752921662522" },
+  { name: "Superman", img: "https://ik.imagekit.io/lenskartclone/images/5.jpg?updatedAt=1752921663826" }
+
 ];
 
 
@@ -283,7 +285,7 @@ const Spotlight = () => {
                     ref={spotlightBgImgRef}
                 >
                     <img
-                        src="/collections/1.jpg"
+                        src="https://ik.imagekit.io/lenskartclone/images/13.jpg"
                         alt=""
                         className="w-full h-full object-cover scale-[1.5] will-change-transform"
                         ref={spotlightBgImgInnerRef}
