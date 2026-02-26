@@ -31,8 +31,9 @@ const About = () => {
   "6.jpg?updatedAt=1752921663747",
   "7.jpg?updatedAt=1752921662641",
   "8.jpg?updatedAt=1752921663025",
-  "9.jpg?updatedAt=1752921662522"
-
+  "9.jpg?updatedAt=1752921662522",
+   "13.jpg",
+    "12.jpg"        
         ];
 
         items.forEach((item, index) => {
